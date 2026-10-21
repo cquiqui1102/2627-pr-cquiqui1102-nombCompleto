@@ -31,15 +31,8 @@ def formatear_nombre(nombre: str, apellido1: str, apellido2: str) -> str:
 
 def main():
     """
-    Función principal
-    
-    Args:
-    Nombre del usuario
-    Primer apellido del usuario
-    Segundo apellido del usuario
-
-    Returns:
-    Nombre completo separado por espacios y primeras letras en mayúsculas
+    Función principal:
+    Solicita al usuario su nombre, primer apellido y segundo apellido, y muestra el nombre completo separados por espacios como nombres propios.
     
     """
 
