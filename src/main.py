@@ -2,15 +2,15 @@
 
 def formatear_nombre(nombre: str, apellido1: str, apellido2: str) -> str:
     """
-    Formatea el nombre completo del usuario para separar por espacio y la primera letra en mayúscula
+    Formatea el nombre completo del usuario para separar por espacio y la primera letra en mayúscula.
 
     Args:
-    nombre = nombre del usuario
-    apellido1 = primer apellido del usuario
-    apellido2 = segundo apellido del usuario
+    nombre = Nombre del usuario
+    apellido1 = Primer apellido del usuario
+    apellido2 = Segundo apellido del usuario
 
     Returns:
-    Cadena del nombre completo formateado
+    str = Nombre completo formateado
 
     """
 
@@ -28,26 +28,29 @@ def formatear_nombre(nombre: str, apellido1: str, apellido2: str) -> str:
     return (f"Su nombre completo es {nombre_formateado} {apellido1_formateado} {apellido2_formateado}.")
 
 
+
 def main():
     """
     Función principal
     
     Args:
-    nombre = nombre del usuario
-    apellido1 = primer apellido del usuario
-    apellido2 = segundo apellido del usuario
-    
+    Nombre del usuario
+    Primer apellido del usuario
+    Segundo apellido del usuario
+
     Returns:
     Nombre completo separado por espacios y primeras letras en mayúsculas
     
     """
 
     # Entrada
+
     nombre: str = input("Introduzca su nombre: ")
     apellido1: str = input("Introduzca su primer apellido: ")
     apellido2: str = input("Introduzca su segundo apellido: ")
 
     # Salida
+    
     print(formatear_nombre(nombre, apellido1, apellido2))
 
 if __name__ == "__main__":
