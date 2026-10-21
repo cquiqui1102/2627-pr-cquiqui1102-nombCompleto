@@ -14,7 +14,7 @@ def formatear_nombre(nombre: str, apellido1: str, apellido2: str) -> str:
 
     """
 
-    nombre_compuesto: str = nombre.strip().split()
+    nombre_compuesto: list[str] = nombre.strip().split()
 
     if len(nombre_compuesto) == 1:
         nombre_formateado: str = nombre_compuesto[0].capitalize()
